@@ -1,0 +1,75 @@
+* {
+    font-family: Helvetica;
+    
+}
+
+main {
+    width:100%;
+}
+.header {
+    display: inline;
+    height: 64px;
+    padding-left: 24px;
+    width: 100%;
+    
+}
+
+.header h1 {
+    display: inline;
+    font-size: 32px;
+    
+}
+
+.nav {
+    display: inline;
+    float: right;
+    padding-right: 24px;
+}
+
+.nav li {
+    padding: 16px;
+}
+
+.header span {
+    color:gray;
+}
+
+.container {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 32px;
+    background-color: seashell;
+    justify-content: center;
+}
+
+ 
+
+.bannerText {
+    text-align: center;
+     padding-top: 100px;
+}
+
+.startButton {
+    background-color: darkgray;
+    width: 40%
+}
+
+.information {
+     display: inline-flex;
+     margin-left: 24px;
+}
+
+.card {
+    
+    margin: 32px 24px;
+}
+
+.bannerTitle, .info-title {
+     font-weight: bold;
+}
+
+
+
+
+
+
