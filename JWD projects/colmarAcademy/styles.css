@@ -6,7 +6,7 @@
 main {
     width:100%;
 }
-.header {
+.header-top {
     display: inline;
     height: 64px;
     padding-left: 24px;
@@ -14,7 +14,7 @@ main {
     
 }
 
-.header h1 {
+.header-top h1 {
     display: inline;
     font-size: 32px;
     
@@ -35,18 +35,23 @@ main {
 }
 
 .container {
-    display: inline-flex;
-    width: 100%;
+    display: grid;
+    max-width: 100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 7fr 5fr;
     margin-top: 32px;
-    background-color: seashell;
-    justify-content: center;
+    background-color: rgb(114, 109, 106);
+    
 }
 
- 
+.bannerImg {
+    grid-column: 1 / 8;
+} 
+
 
 .bannerText {
     text-align: center;
-     padding-top: 100px;
+     grid-column: 8 / 13;
 }
 
 .startButton {

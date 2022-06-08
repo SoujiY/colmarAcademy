@@ -1,0 +1,15 @@
+* {
+    font-family: Helvetica;
+}
+
+.logo-grey-text {
+    color: gray;
+}
+
+.startButton {
+    padding: 8px auto;
+}
+
+footer {
+    margin-bottom: 0%;
+}
