@@ -1,0 +1,265 @@
+* {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red;   */
+    
+}
+
+/* header section */
+.header-top {
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    padding: 0px 24px;    
+    margin: 0px;
+    width: 100%;
+    
+}
+
+.header-top h1 {
+   
+    font-size: 32px;
+    padding-top: 16px;
+    
+    
+}
+
+.heading-text {
+    color: grey;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: right;
+    margin-left: 500px;
+    padding: 10px;
+    
+}
+
+.nav li {
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+a:link { 
+    text-decoration: none; 
+    color: rgb(49, 96, 238);
+}
+a:hover { text-decoration: underline;}
+
+/* header section end */
+
+/* Banner Section */
+
+.container1 {
+    display: flex;
+    width: 100%;
+    clear: both;
+    background-color: rgb(155, 153, 151);
+    
+}
+
+
+.bannerImg {
+    padding: 32px 24px;
+    width: 60%;
+} 
+
+
+.bannerText {
+    display: flex;
+    padding: 200px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    width: 40%;
+}
+
+.startButton {
+    background-color: darkslategrey;
+    color: white;
+    width: 40%;
+    height:20%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Banner section end */
+
+/* Information Section */
+.container2 {
+     display: grid;
+     width: 100%;
+     grid-template: auto / 60% 40%;
+}
+
+.info-left {
+    grid-column: 1 / 2;
+    display: grid;
+    width: 100%;
+    height: fit-content;
+    grid-template-rows: 70% 30%;
+    padding: 32px 24px;
+    
+}   
+.info-left-image {
+    grid-row: 1 / 2;
+    height: auto;
+}
+
+.info-left-text {
+    grid-row: 2 / 3;
+    padding-top: 10px;
+    height: auto;
+}
+
+.info-left-text h1 {
+    padding: 16px 0px;
+}
+
+.info-left-text p {
+    text-align: justify;
+    padding: 3px 0px;
+}
+
+.info-right {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: repeat(3 , 1fr);
+    grid-auto-flow: row;
+    padding: 32px 0px;
+    width: 100%;
+    height: fit-content;
+}
+
+.orientation {
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.orientation-img, .campus-img, .guest-img {
+    grid-column: 1 / 2;
+    padding: 16px;
+}
+
+.orientation-text, .campus-text, .guest-text {
+    grid-column: 2 / 3;
+    padding: 60px 0px;
+}
+.campus {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-top: 5px;
+}
+
+.guest-lecture {
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-top: 5px;
+}
+/* information section end */
+
+/* start learning section */
+
+.container3 {
+    display: grid;
+    width: 100%;
+    grid-template-rows: auto auto;
+    padding: 32px 72px;
+    background-color: rgb(155, 153, 151);
+}
+
+.learning-heading {
+    grid-row: 1 / 2;
+    text-align: center;
+    padding: 16px 0px;
+}
+
+.learning-streams {
+    grid-row: 2 / 3;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 30%;
+    margin-top: 16px;
+    
+}
+
+.card-body {
+    padding: 16px;
+}
+/* start learning section end */
+
+/* Thesis section */
+.container4 {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+}
+
+.thesis-heading {
+    grid-row: 1 / 2;
+    text-align: center;
+    padding: 16px 0px;
+}
+
+.thesis-body {
+    grid-row: 2 / 3;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 60% 40%;
+
+}
+
+.thesis-right {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: repeat(2 , auto);
+    grid-auto-flow: row;
+    padding: 45px 0px;
+    width: 100%;
+    height: fit-content;
+}
+
+.fisma-design, .now-then {
+    margin-top: 32px;
+}
+
+/* Thesis end */
+
+/* footer */
+
+.footer {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgb(196, 191, 191);
+    margin-top: 24px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 800px;
+}
+
+.footer ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
